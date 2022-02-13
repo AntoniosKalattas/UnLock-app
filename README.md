@@ -2,10 +2,10 @@
 
 # requirments to build the app
   User variable:
- > [x]ANDROID_HOME -> AppData\Local\Android\Sdk
- [x]ANT_HOME -> \apache_ant
- [x]GRADLE_HOME -> \Gradle\gradle-7.4\bin
- [x]JAVA_HOME -> \Program Files\Java\jre1.8.0_321
+ - [x]ANDROID_HOME -> AppData\Local\Android\Sdk
+ - [x]ANT_HOME -> \apache_ant
+ -[x]GRADLE_HOME -> \Gradle\gradle-7.4\bin
+ - [x]JAVA_HOME -> \Program Files\Java\jre1.8.0_321
  
   System Variables:
   
