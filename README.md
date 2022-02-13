@@ -22,10 +22,10 @@
 %GRADLE_HOME%
 ```
 # How to build your app:
-> cordova creat name_of_project
-> cordova platform add android
-> cordova run
-> cordova emulate android //in case you have an emulator(https://developer.android.com/studio)
+$ cordova creat name_of_project
+$ cordova platform add android
+$ cordova run
+$ cordova emulate android 
 
 How to check console or devtools:
 got to > chrome://inspect/#devices
