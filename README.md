@@ -9,17 +9,17 @@
  
   System Variables:
   
- [x]'_JAVA_OPTIONS' -> -Xmx512M
+ - [x]'_JAVA_OPTIONS' -> -Xmx512M
  
   Path:
   
-\AppData\Local\Android\Sdk\tools
-\AppData\Local\Android\Sdk\tools\bin
-\AppData\Local\Android\Sdk\platform-tools
-%JAVA_HOME%
-%ANT_HOME%
-%ANDROID_HOME%
-%GRADLE_HOME%
+- \AppData\Local\Android\Sdk\tools
+- \AppData\Local\Android\Sdk\tools\bin
+- \AppData\Local\Android\Sdk\platform-tools
+- %JAVA_HOME%
+- %ANT_HOME%
+- %ANDROID_HOME%
+- %GRADLE_HOME%
 
 # How to build your app:
 ```
