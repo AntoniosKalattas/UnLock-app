@@ -25,7 +25,7 @@
 > cordova creat name_of_project
 > cordova platform add android
 > cordova run
-> cordova emulate android //in case you have an emulator(www.androidstudio.com/)
+> cordova emulate android //in case you have an emulator(https://developer.android.com/studio)
 
 How to check console or devtools:
 got to > chrome://inspect/#devices
