@@ -1,6 +1,6 @@
 # UnLock-app
 
-# requirments to build the app
+# requirments 
   User variable:
  - ANDROID_HOME -> AppData\Local\Android\Sdk
  - ANT_HOME -> \apache_ant
