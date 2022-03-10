@@ -26,13 +26,13 @@ function send_data(what) {
     const xhr = new XMLHttpRequest();
     let method = 'POST';
     if (what == false) {
-        let url = 'https://localhost:83/android_app/login.php'; //url of the php server(must be https:// (secure) in order to make the connection using cordova app)
+        let url = 'https://localhost:83/server/login.php'; //url of the php server(must be https:// (secure) in order to make the connection using cordova app)
         let password = document.getElementById('password').value;
         let username = document.getElementById('username').value;
         HttpRequest(method, url, username, password, xhr);
     }
     if (what == true) {
-        let url = 'https://localhost:83/android_app/unlock.php'; //url of the php server(must be https:// (secure) in order to make the connection using cordova app)
+        let url = 'https://localhost:83/server/unlock.php'; //url of the php server(must be https:// (secure) in order to make the connection using cordova app)
 
         times++;
         if (times % 2 == 0) {
