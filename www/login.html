@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<script charset="utf-8" src="cordova.js"></script>
+<script src="js/jquery.js"></script>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!--
+        Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
+            https://cordova.apache.org/docs/en/latest/
+        Some notes:
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="login">
+        <h1>Login</h1>
+        <form method="post">
+            <input type="text" id="username" placeholder="Username" required="required" />
+            <input type="password" id="password" placeholder="Password" required="required" />
+            <a href="register.html">register</a>
+            <button type="button" class="btn btn-primary btn-block btn-large" onclick="send_data(false)">Submit</button>
+        </form>
+    </div>
+    <div id="response" class="error_box"></div>
+</body>
+<script src="js/renderer.js"></script>
+
+</html>
