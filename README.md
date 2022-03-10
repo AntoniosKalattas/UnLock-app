@@ -29,5 +29,5 @@
 > cordova emulate android 
 ```
 
-How to check console or devtools:
-got to > chrome://inspect/#devices
+
+got to > chrome://inspect/#devices , for devtools
