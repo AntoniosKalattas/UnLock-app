@@ -30,7 +30,7 @@
 ```
 
 # Bugs
-> POST https://localhost:83/android_app/login.php net::ERR_CONNECTION_REFUSED
+> POST https://localhost:83/android_app/login.php net::ERR_CONNECTION_REFUSED -> Solution. Connect to a local/global server
 > Failed to load resource: net::ERR_CONNECTION_REFUSED
 
 got to > chrome://inspect/#devices , for devtools
