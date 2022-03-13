@@ -29,5 +29,8 @@
 > cordova emulate android 
 ```
 
+# Bugs
+> POST https://localhost:83/android_app/login.php net::ERR_CONNECTION_REFUSED
+> Failed to load resource: net::ERR_CONNECTION_REFUSED
 
 got to > chrome://inspect/#devices , for devtools
